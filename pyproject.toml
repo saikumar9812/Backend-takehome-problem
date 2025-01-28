@@ -1,9 +1,9 @@
 [project]
 name = "bing"
 version = "0.1.0"
-description = ""
+description = "A tool to fetch research papers from PubMed"
 authors = [
-    {name = "Katika Sai Kumar Reddy", email = "umasai042@gmail.com.com"}
+  {name = "saikumar98125", email = "saikumar98125@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
@@ -16,7 +16,7 @@ numpy = "1.23.2"
 
 [tool.poetry]
 packages = [
-    { include = "bing" }
+  { include = "bing" }
 ]
 
 [build-system]
