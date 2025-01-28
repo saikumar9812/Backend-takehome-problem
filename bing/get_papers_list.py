@@ -12,6 +12,11 @@ def main():
     if args.debug:
         logging.basicConfig(level=logging.DEBUG)
 
+    print("Accepted command-line options:")
+    print("-h or --help: Display usage instructions.")
+    print("-d or --debug: Print debug information during execution.")
+    print("-f or --file: Specify the filename to save the results. If this option is not provided, print the output to the console.")
+
     fetcher = PubMedFetcher(args.query)
     xml_data = fetcher.fetch_papers()
     filtered_papers = fetcher.filter_non_academic_authors(xml_data)
