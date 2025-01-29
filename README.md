@@ -134,9 +134,9 @@ We welcome contributions to this project! To get involved, please follow these s
    ```
 6. Create a pull request.
 
-## Acknowledgements 🙏
+## Acknowledgements 
 
-This project was developed using various open-source libraries and tools. Special thanks to the contributors and maintainers of these resources!
+This project was developed using various open-source libraries and tools. 
 
 ## Contact 📧
 
