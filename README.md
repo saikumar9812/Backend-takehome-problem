@@ -17,15 +17,26 @@ The project is structured as follows:
 
 ```
 bing/
+├── __pycache__/
 ├── __init__.py
 ├── get_papers_list.py
 ├── pubmed_fetcher.py
-README.md
-install-poetry.py
-output.csv
-poetry.lock
-pyproject.toml
-test.pypirc
+├── dist/
+│   ├── bing-0.1.0-py3-none-any.whl
+│   └── bing-0.1.0.tar.gz
+├── tests/
+├── README.md
+├── install-poetry.py
+├── output.csv
+├── output1.csv
+├── output2.csv
+├── output3.csv
+├── output4.csv
+├── output5.csv
+├── output6.csv
+├── poetry.lock
+├── pyproject.toml
+└── test.pypirc
 ```
 
 ### Directory Breakdown:
